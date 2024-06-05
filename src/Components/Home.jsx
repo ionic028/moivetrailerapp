@@ -54,7 +54,7 @@ const Home = () => {
     <>
       <Sidenav />
 
-      <div className="sm:w-[80%] w-full h-full overflow-auto overflow-x-hidden">
+      <div className="sm:w-[80%] w-full h-screen overflow-auto overflow-x-hidden">
         <Topnav />
 
         <Header data={wallpaper} />
